@@ -1,0 +1,47 @@
+altgraph==0.17.3
+audioread==3.1.0
+certifi==2026.1.4
+cffi==2.0.0
+cryptography==46.0.5
+einops==0.8.2
+future==1.0.0
+julius==0.2.7
+kthread==0.2.3
+librosa==0.10.2
+llvmlite==0.46.0
+matchering==2.0.6
+ml_collections==0.1.1
+natsort==8.2.0
+omegaconf==2.3.0
+opencv-python==4.6.0.66
+# Pillow==10.4.0 버전 충돌
+Pillow==9.5.0
+psutil==7.2.2
+pydub==0.25.1
+pyglet==1.5.23
+pyperclip==1.8.2
+# pyrubberband==0.3.0 python 3.12 충돌
+pyrubberband==0.4.0
+pytorch_lightning==2.6.1
+PyYAML==6.0.3
+resampy==0.4.2
+scipy==1.17.1
+soundstretch==1.2
+# torch는 ROCm 버전이 이미 설치되어 있으므로 제외
+urllib3==2.6.3
+wget==3.2
+samplerate==0.1.0
+screeninfo==0.8.1
+diffq
+# playsound python 3.12 호환
+playsound==1.2.2
+onnx
+onnxruntime==1.24.2
+# onnxruntime-gpu 제외 (CUDA 전용이라 ROCm 환경에서 충돌)
+onnx2pytorch
+SoundFile==0.13.1; sys_platform != 'darwin'
+PySoundFile==0.9.0.post1; sys_platform == 'darwin'
+# Dora==0.0.3 scikit-learn 설치 예정
+numpy==1.26.4
+beartype
+rotary-embedding-torch
